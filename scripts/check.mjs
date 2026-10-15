@@ -6,11 +6,11 @@ const projects = ['2048 Beer', 'BingoMint', 'Catalog Precheck', 'Mahjong Study',
 const tools = ['Image to ASCII', 'Icon Workshop', 'Pixel Studio', 'GridSplit', 'Cutout'];
 const domains = ['2048.beer', 'bingomint.com', 'catalogprecheck.com', 'mahjongstudy.com', 'offlinegamehub.com', 'oneimagetool.com', 'playcards365.com', 'vztool.com', ...['ascii', 'icon', 'pixel', 'split', 'cutout'].map(name => `${name}.vztool.com`)];
 const slug = heading => heading.toLowerCase().replace(/[^\p{L}\p{N}\s-]/gu, '').replace(/\s/g, '-');
-const sections = markdown => new Set([...markdown.matchAll(/^#{1,6} (.+)$/gm)].map(match => slug(match[1])));
+const sections = markdown => new Set([...markdown.replaceAll('\r\n', '\n').matchAll(/^#{1,6} (.+)$/gm)].map(match => slug(match[1])));
 let checkedLinks = 0;
 
 for (const file of ['README.md', 'README.en.md', 'SCREENSHOTS.md']) {
-  const markdown = await readFile(new URL(file, root), 'utf8');
+  const markdown = (await readFile(new URL(file, root), 'utf8')).replaceAll('\r\n', '\n');
   if (file.startsWith('README')) {
     for (const name of projects) assert(markdown.includes(`\n## ${name}\n`), `${file}: missing project ${name}`);
     for (const name of tools) assert(markdown.includes(`\n### ${name}\n`), `${file}: missing VZTool tool ${name}`);
