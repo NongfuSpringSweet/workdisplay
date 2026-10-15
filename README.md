@@ -1,209 +1,202 @@
-![Work Display — 把想法做成可以使用的网站](assets/cover.svg)
+![Work Display — Ideas you can open, use, and play](assets/cover.svg)
 
-<p align="center"><b>简体中文</b> · <a href="README.en.md">English</a></p>
+<p align="center"><b>English</b> · <a href="README.zh-CN.md">简体中文</a> · <a href="https://nongfuspringsweet.github.io/workdisplay/">Website</a></p>
 
-# Work Display · 作品集
+# Work Display · Selected Work
 
-你好，我是 [NongfuSpringSweet](https://github.com/NongfuSpringSweet)。这里收集了我已上线的作品：实用工具、创作工作台、教学应用和浏览器游戏。
+Hi, I'm [NongfuSpringSweet](https://github.com/NongfuSpringSweet). This is a collection of my live projects: practical utilities, creative workspaces, a teaching app, and browser games.
 
-**8 个项目，13 个在线入口。** 点击截图可以直接体验。介绍和截图核对于 **2026-10-15**，VZTool 的 5 个子域名也在下方逐一展示。
+**Follow [@HuaAnDev on X](https://x.com/HuaAnDev)** for new launches, product updates, and development notes.
 
-## 一眼看作品
+**8 live projects · 13 websites**
 
-| 作品 | 做什么 | 在线体验 |
+## Explore the projects
+
+| Project | What it does | Try it |
 | --- | --- | --- |
-| [2048 Beer](#2048-beer) | 啤酒视觉主题的 2048 合成游戏 | [2048.beer](https://2048.beer/) |
-| [BingoMint](#bingomint) | 制作、设计和打印 Bingo 卡片 | [bingomint.com](https://bingomint.com/) |
-| [Catalog Precheck](#catalog-precheck) | 电商商品文件预检与导入风险对比 | [catalogprecheck.com](https://catalogprecheck.com/) |
-| [Mahjong Study](#mahjong-study) | 麻将教学课件、牌例与练习 | [mahjongstudy.com](https://mahjongstudy.com/) |
-| [Offline Game Hub](#offline-game-hub) | 首次缓存后可以离线玩的小游戏合集 | [offlinegamehub.com](https://offlinegamehub.com/) |
-| [OneImageTool](#oneimagetool) | 图片、SVG、PDF 与日常小工具 | [oneimagetool.com](https://oneimagetool.com/) |
-| [PlayCards365](#playcards365) | 接龙与多种经典纸牌游戏 | [playcards365.com](https://playcards365.com/) |
-| [VZTool](#vztool) | ASCII、图标、像素画、切图与抠图工具系列 | [vztool.com](https://vztool.com/) |
+| [2048 Beer](#2048-beer) | A beer-themed take on the 2048 puzzle | [2048.beer](https://2048.beer/) |
+| [BingoMint](#bingomint) | Create, design, and print bingo cards | [bingomint.com](https://bingomint.com/) |
+| [Catalog Precheck](#catalog-precheck) | Preflight product files and compare import risks | [catalogprecheck.com](https://catalogprecheck.com/) |
+| [Mahjong Study](#mahjong-study) | Build mahjong lessons, tile examples, and exercises | [mahjongstudy.com](https://mahjongstudy.com/) |
+| [Offline Game Hub](#offline-game-hub) | Small games that work offline after caching | [offlinegamehub.com](https://offlinegamehub.com/) |
+| [OneImageTool](#oneimagetool) | Image, SVG, PDF, and everyday utilities | [oneimagetool.com](https://oneimagetool.com/) |
+| [PlayCards365](#playcards365) | Solitaire and classic card games | [playcards365.com](https://playcards365.com/) |
+| [VZTool](#vztool) | ASCII, icons, pixel art, grid splitting, and cutouts | [vztool.com](https://vztool.com/) |
 
 ## 2048 Beer
 
-**把经典数字合成，做成一场有啤酒视觉风格的小游戏。**
+**A familiar merging puzzle with a beer-inspired visual identity.**
 
-用方向键或滑动合并相同方块，从 Fresh Pour 一路升级到 Legendary Brew。木纹桌面、酒杯插画和随数值变深的配色，让每次升级都有直观反馈。
+Use arrow keys or swipe to combine matching tiles, progressing from Fresh Pour to Legendary Brew. Wooden textures, illustrated glasses, and increasingly dark tile colors give each upgrade a distinct look.
 
-- 提供 Standard、Classic 和 Plus 三种模式。
-- 标准模式包含撤销、交换和单格清除道具；Classic 保留纯粹的合成玩法。
-- 键盘和触屏均可操作，随时打开玩一局。
+- Three modes: Standard, Classic, and Plus.
+- Standard includes Undo, Swap, and Clear one; Classic keeps the puzzle free of power-ups.
+- Play with a keyboard or touch controls, directly in your browser.
 
-[在线试玩](https://2048.beer/) · [玩法说明](https://2048.beer/how-to-play)
+[Play now](https://2048.beer/) · [How to play](https://2048.beer/how-to-play)
 
-[![2048 Beer：实际游玩的合成棋盘](assets/screenshots/2048-beer.jpg)](https://2048.beer/)
+[![2048 Beer: a real game in progress](assets/screenshots/2048-beer.jpg)](https://2048.beer/)
 
 ## BingoMint
 
-**从一个活动点子，到一叠可以直接打印的 Bingo 卡。**
+**Turn an activity idea into a stack of printable bingo cards.**
 
-面向课堂、聚会和活动组织者的卡片制作工具。添加文字、图片和 Emoji，调整布局与样式，即时预览，再生成不同排列的卡片和打印用 PDF。
+A card-making workspace for classrooms, parties, and group activities. Add words, pictures, and emoji; adjust the design; preview the result; then generate different arrangements and print-ready PDFs.
 
-- 自定义 3×3、4×4、5×5 卡片，以及经典 30／75／80／90-ball 数字模式。
-- 主题模板、自由格、卡片设计和 A4／Letter 排版。
-- 支持 90-ball 六票 strip、本机保存与 JSON 备份，以及本机叫号和卡片检查。
-- 基础制作和下载无需注册，界面支持多种语言。
+- Custom 3×3, 4×4, and 5×5 cards, plus classic 30-, 75-, 80-, and 90-ball formats.
+- Theme templates, free spaces, card styling, and A4 or Letter layouts.
+- Six-ticket 90-ball strips, local saving and JSON backups, plus a local caller and card check.
+- Basic creation and downloads need no account, with a multilingual interface.
 
-[打开编辑器](https://bingomint.com/) · [浏览模板](https://bingomint.com/templates)
+[Open the editor](https://bingomint.com/) · [Browse templates](https://bingomint.com/templates)
 
-[![BingoMint：Nature Walk 示例卡的编辑与即时预览](assets/screenshots/bingomint.jpg)](https://bingomint.com/)
+[![BingoMint: editing and previewing a Nature Walk card](assets/screenshots/bingomint.jpg)](https://bingomint.com/)
 
 ## Catalog Precheck
 
-**在导入商店之前，先看清商品文件里的问题。**
+**Understand product-file problems before importing into a store.**
 
-面向电商商品批量操作的文件检查工具。在浏览器中检查 Shopify CSV／XLSX 的结构、表头、商品与变体、价格及图片 URL，并把问题定位到具体记录和字段。
+A browser-based workspace for bulk catalog tasks. Check Shopify CSV/XLSX structure, headers, products, variants, prices, and image URLs, with findings tied to specific records and fields.
 
-- Shopify 文件预检、双文件 Import Risk Compare、价格调整预览与报告。
-- 提供 WooCommerce → Shopify 转换，以及 BigCommerce、Wix 和特定 TikTok Shop 模板的检查入口。
-- 文件检查在本机浏览器完成；先看结果，再决定是否下载修改副本。
+- Shopify preflight checks, two-file Import Risk Compare, price-adjustment previews, and reports.
+- WooCommerce-to-Shopify conversion and entry points for BigCommerce, Wix, and specific TikTok Shop templates.
+- File checks run in your browser. Review the findings before choosing whether to download a modified copy.
 
-检查基于提供的文件和工具支持的规则，不能读取商店实际状态或保证导入结果。
+Checks cover the supplied files and supported rules. They cannot inspect the live store or guarantee an import outcome.
 
-[打开网站](https://catalogprecheck.com/) · [Shopify 预检](https://catalogprecheck.com/shopify-csv-validator) · [文件对比](https://catalogprecheck.com/compare)
+[Visit the site](https://catalogprecheck.com/) · [Shopify validator](https://catalogprecheck.com/shopify-csv-validator) · [Compare files](https://catalogprecheck.com/compare)
 
-[![Catalog Precheck：Shopify 商品文件预检入口](assets/screenshots/catalog-precheck.jpg)](https://catalogprecheck.com/)
+[![Catalog Precheck: Shopify product-file preflight](assets/screenshots/catalog-precheck.jpg)](https://catalogprecheck.com/)
 
 <details>
-<summary>看看真实的示例文件检查结果</summary>
+<summary>Sample validation results</summary>
 
-使用站点自带的公开练习文件，展示实际检查结果。
 
-![Catalog Precheck：公开练习文件的检查结果](assets/screenshots/catalog-precheck-check.jpg)
+![Catalog Precheck: actual practice-file findings](assets/screenshots/catalog-precheck-check.jpg)
 
 </details>
 
 ## Mahjong Study
 
-**把一个麻将牌例，变成可以讲解、演示和带走的课程。**
+**Turn a tile example into a lesson you can explain, present, and share.**
 
-面向教师和学习者的麻将教学工作台。摆放牌例、编写问题与讲解、组织教学卡片和分步演示，帮助课堂从“看牌”走向“说清楚为什么”。
+A teaching workspace for mahjong instructors and learners. Arrange tiles, write questions and explanations, organize teaching cards, and build step-by-step presentations around the decisions you want to discuss.
 
-- 可编辑的课件、选择题、学生预览与演示模式。
-- 手牌和整桌编辑、3D 牌面查看、图片与打印输出。
-- 提供规则参考与练习入口，并明确区分不同麻将玩法。
-- 基础编辑无需账户，支持本机保存和 JSON 备份。
+- Editable lessons, choice questions, student previews, and presentation mode.
+- Hand and table editors, a 3D tile viewer, and image or print exports.
+- Rule references and practice entry points, with distinct mahjong traditions clearly labeled.
+- Basic editing works without an account, with local saving and JSON backups.
 
-[打开教学工作台](https://mahjongstudy.com/)
+[Open the teaching workspace](https://mahjongstudy.com/)
 
-[![Mahjong Study：牌例、教学卡片与讲解编辑](assets/screenshots/mahjong-study.jpg)](https://mahjongstudy.com/)
+[![Mahjong Study: tile examples, teaching cards, and explanations](assets/screenshots/mahjong-study.jpg)](https://mahjongstudy.com/)
 
 ## Offline Game Hub
 
-**把碎片时间留给小游戏，也让没网的时候有得玩。**
+**Small games for spare moments, including the ones without Wi-Fi.**
 
-一个汇集 13 款益智、棋盘与街机小游戏的浏览器游戏站。扫雷、2048、数独、贪吃蛇、四子棋、方块、3D 魔方等，都可以从同一个入口打开。
+A browser collection of 13 puzzle, board, and arcade games. Find Minesweeper, 2048, Sudoku, Snake, Four in a Row, Falling Blocks, a 3D magic cube, and more in one place.
 
-- 分类浏览、搜索与收藏，方便找到下一款想玩的游戏。
-- 部分游戏支持人机对战或同设备双人操作。
-- 首次联网并缓存完成后可离线使用，成绩保存在本机；离线可用性依赖浏览器保留缓存。
+- Categories, search, and favorites to help you choose a game.
+- Selected games support computer opponents or two players on one device.
+- Works offline after the initial online cache finishes, with scores kept locally. Offline access depends on the browser retaining its cache.
 
-[打开游戏合集](https://offlinegamehub.com/)
+[Explore the games](https://offlinegamehub.com/)
 
-[![Offline Game Hub：按类别浏览小游戏](assets/screenshots/offline-game-hub.jpg)](https://offlinegamehub.com/)
+[![Offline Game Hub: browsing the game collection](assets/screenshots/offline-game-hub.jpg)](https://offlinegamehub.com/)
 
 ## OneImageTool
 
-**日常图片任务，打开浏览器就能做。**
+**Everyday image tasks, ready in your browser.**
 
-把图片、SVG、PDF 和常用辅助工具放到一个工作台里。压缩、格式转换、裁剪、改尺寸，以及二维码、图标等小任务，都有直接的操作入口。
+A shared workspace for image, SVG, PDF, and utility tools. Compress, convert, crop, or resize an image, then move on to smaller tasks such as making a QR code or a website icon.
 
-- 图片压缩、转换、裁剪、水印和更多编辑工具。
-- SVG 转换与优化，PDF 合并与压缩。
-- 搜索与收藏、多语言界面，兼顾手机和桌面操作。
-- 文件处理在浏览器中完成，常用流程无需注册。
+- Image compression, format conversion, cropping, watermarks, and more.
+- SVG conversion and optimization, plus PDF merging and compression.
+- Search, favorites, and multiple interface languages across desktop and mobile.
+- File processing runs in the browser; common workflows need no account.
 
-[打开工具箱](https://oneimagetool.com/)
+[Open the toolbox](https://oneimagetool.com/)
 
-[![OneImageTool：图片压缩、转换与改尺寸工作台](assets/screenshots/one-image-tool.jpg)](https://oneimagetool.com/)
+[![OneImageTool: the image compression, conversion, and resizing workspace](assets/screenshots/one-image-tool.jpg)](https://oneimagetool.com/)
 
 ## PlayCards365
 
-**把熟悉的纸牌游戏，做成随时可以坐下来玩的一桌。**
+**A familiar card table, ready whenever you have time for a game.**
 
-提供 28 款纸牌游戏，涵盖 Klondike、Spider、FreeCell 等接龙，以及 Hearts、斗地主、Texas Hold’em 等机器人练习。绿色牌桌、清楚的卡牌和适配不同屏幕的布局，让浏览器里也有完整的牌局体验。
+A collection of 28 card games, from Klondike, Spider, and FreeCell to bot practice in Hearts, Dou Dizhu, and Texas Hold'em. Green tables, readable cards, and layouts for different screens bring a complete card-game experience to the browser.
 
-- 游客即可开始游戏，无需下载安装。
-- 提供玩法学习入口、本机记录和自动保存。
-- Hearts 与斗地主设有在线房间 Beta；其他游戏的可用模式以各页面为准。
+- Start as a guest, with no installation required.
+- Learning resources, local records, and automatic saving.
+- Hearts and Dou Dizhu have online-room Betas; available modes are listed on each game's page.
 
-[浏览全部游戏](https://playcards365.com/) · [开始 Klondike](https://playcards365.com/games/klondike/)
+[Explore the games](https://playcards365.com/) · [Play Klondike](https://playcards365.com/games/klondike/)
 
-[![PlayCards365：经典接龙与纸牌游戏大厅](assets/screenshots/playcards365.jpg)](https://playcards365.com/)
+[![PlayCards365: the solitaire and card-game lobby](assets/screenshots/playcards365.jpg)](https://playcards365.com/)
 
 <details>
-<summary>展开一局 Klondike 的实际牌桌</summary>
+<summary>Klondike gameplay</summary>
 
-![PlayCards365：Klondike 实际游戏界面](assets/screenshots/playcards365-game.jpg)
+![PlayCards365: an actual Klondike game](assets/screenshots/playcards365-game.jpg)
 
 </details>
 
 ## VZTool
 
-**Small tools, made useful. 小工具，认真做好。**
+**Small tools, made useful.**
 
-一个围绕图片创作与日常设计的工具系列。主站负责发现工具，5 个独立子域名分别提供专注的工作台；图像处理在本机浏览器中完成。
+A family of tools for image creation and everyday design. The main site helps you discover tools, while 5 dedicated subdomains each offer a focused workspace. Image processing stays in your browser.
 
-[打开 VZTool 主站](https://vztool.com/)
+[Visit VZTool](https://vztool.com/)
 
-[![VZTool：图片创作工具系列首页](assets/screenshots/vztool.jpg)](https://vztool.com/)
+[![VZTool: the image-tool collection](assets/screenshots/vztool.jpg)](https://vztool.com/)
 
-| 工具 | 用途 | 独立入口 |
+| Tool | What it does | Dedicated site |
 | --- | --- | --- |
-| [Image to ASCII](#image-to-ascii) | 图片转字符画 | [ascii.vztool.com](https://ascii.vztool.com/) |
-| [Icon Workshop](#icon-workshop) | 生成网站图标和完整图标包 | [icon.vztool.com](https://icon.vztool.com/) |
-| [Pixel Studio](#pixel-studio) | 照片转像素画与手工图样 | [pixel.vztool.com](https://pixel.vztool.com/) |
-| [GridSplit](#gridsplit) | 社交媒体网格切图和发布顺序预览 | [split.vztool.com](https://split.vztool.com/) |
-| [Cutout](#cutout) | AI 去背景与手动精修 | [cutout.vztool.com](https://cutout.vztool.com/) |
+| [Image to ASCII](#image-to-ascii) | Turn pictures into character art | [ascii.vztool.com](https://ascii.vztool.com/) |
+| [Icon Workshop](#icon-workshop) | Create website icons and complete icon packs | [icon.vztool.com](https://icon.vztool.com/) |
+| [Pixel Studio](#pixel-studio) | Turn photos into pixel art and craft patterns | [pixel.vztool.com](https://pixel.vztool.com/) |
+| [GridSplit](#gridsplit) | Split social-media grids and preview posting order | [split.vztool.com](https://split.vztool.com/) |
+| [Cutout](#cutout) | Remove backgrounds with AI and refine by hand | [cutout.vztool.com](https://cutout.vztool.com/) |
 
 ### Image to ASCII
 
-把照片转成字符画，调整字符、颜色与细节，在预览中找到想要的效果。支持文字、PNG、SVG、HTML 和 ANSI 输出，适合头像、海报与终端风格创作。
+Convert photos into character art, adjusting characters, colors, and detail while previewing the result. Export text, PNG, SVG, HTML, or ANSI for avatars, posters, and terminal-inspired artwork.
 
-[体验 Image to ASCII](https://ascii.vztool.com/)
+[Try Image to ASCII](https://ascii.vztool.com/)
 
-[![Image to ASCII：字符画转换工作台](assets/screenshots/vztool-ascii.jpg)](https://ascii.vztool.com/)
+[![Image to ASCII: the character-art workspace](assets/screenshots/vztool-ascii.jpg)](https://ascii.vztool.com/)
 
 ### Icon Workshop
 
-从一张图片生成网站 favicon 和应用图标。预览不同尺寸与形状，下载 ICO、PNG 或带 manifest 与安装代码的图标包，方便放进实际项目。
+Turn one image into website favicons and app icons. Preview different sizes and shapes, then download ICO, PNG, or an icon pack with a manifest and installation code for your project.
 
-[体验 Icon Workshop](https://icon.vztool.com/)
+[Try Icon Workshop](https://icon.vztool.com/)
 
-[![Icon Workshop：网站图标制作与预览](assets/screenshots/vztool-icon.jpg)](https://icon.vztool.com/)
+[![Icon Workshop: creating and previewing website icons](assets/screenshots/vztool-icon.jpg)](https://icon.vztool.com/)
 
 ### Pixel Studio
 
-把照片转换为像素画，通过网格密度、颜色数量与预设调色板控制风格。既可以导出像素图，也可以生成带色号的手工参考图样。
+Convert photos into pixel art, controlling the look through grid density, color count, and preset palettes. Export the artwork or create numbered patterns for a craft project.
 
-[体验 Pixel Studio](https://pixel.vztool.com/)
+[Try Pixel Studio](https://pixel.vztool.com/)
 
-[![Pixel Studio：像素画与手工图样工作台](assets/screenshots/vztool-pixel.jpg)](https://pixel.vztool.com/)
+[![Pixel Studio: pixel art and craft patterns](assets/screenshots/vztool-pixel.jpg)](https://pixel.vztool.com/)
 
 ### GridSplit
 
-把一张大图拆成社交媒体用的网格切片。在模拟主页中预览整体效果，查看编号与发布顺序，再打包下载切片。
+Split a larger image into a social-media grid. Preview the full composition in a profile layout, review tile numbers and posting order, and download the pieces as a package.
 
-[体验 GridSplit](https://split.vztool.com/)
+[Try GridSplit](https://split.vztool.com/)
 
-[![GridSplit：社交媒体网格切图与主页预览](assets/screenshots/vztool-split.jpg)](https://split.vztool.com/)
+[![GridSplit: social-media image splitting and profile previews](assets/screenshots/vztool-split.jpg)](https://split.vztool.com/)
 
 ### Cutout
 
-用 AI 自动去除图片背景，再通过套索、魔法棒和笔刷修整边缘。支持主体／背景切换、柔化、背景替换与撤销重做，最后导出透明 PNG、JPG 或遮罩。
+Remove backgrounds with AI, then refine edges with a lasso, magic wand, or brush. Switch between subject and background, soften edges, replace the background, and undo edits before exporting transparent PNG, JPG, or a mask.
 
-图片在本机处理；AI 模式首次使用需要下载模型，运行能力取决于浏览器和设备。
+Images stay on your device. AI mode downloads its model on first use, and availability depends on your browser and hardware.
 
-[体验 Cutout](https://cutout.vztool.com/)
+[Try Cutout](https://cutout.vztool.com/)
 
-[![Cutout：AI 去背景与手动抠图工作台](assets/screenshots/vztool-cutout.jpg)](https://cutout.vztool.com/)
-
----
-
-截图来自公开线上页面，使用站点默认内容或公开示例。[截图来源与拍摄记录](SCREENSHOTS.md)记录了地址、日期和状态。作品会持续更新，当前体验以各站点为准。
-
-本仓库同时提供 [GitHub Pages 网站](https://nongfuspringsweet.github.io/workdisplay/)。在仓库 Settings → Pages 中选择 `Deploy from a branch`、`main` 和 `/(root)`；About 的 Website 可勾选使用该 Pages 地址。
-
-网页是无需安装依赖的静态文件 `index.html` 和 `en.html`。修改作品介绍时，同步更新 README 与网页，运行 `node scripts/check.mjs` 检查中英文入口、图片和本地链接。
+[![Cutout: AI background removal and manual editing](assets/screenshots/vztool-cutout.jpg)](https://cutout.vztool.com/)
