@@ -204,4 +204,6 @@
 
 截图来自公开线上页面，使用站点默认内容或公开示例。[截图来源与拍摄记录](SCREENSHOTS.md)记录了地址、日期和状态。作品会持续更新，当前体验以各站点为准。
 
-本仓库用于作品展示。更新文案或图片后，可运行 `node scripts/check.mjs` 检查中英文入口、图片引用与本地链接。
+本仓库同时提供 [GitHub Pages 网站](https://nongfuspringsweet.github.io/workdisplay/)。在仓库 Settings → Pages 中选择 `Deploy from a branch`、`main` 和 `/(root)`；About 的 Website 可勾选使用该 Pages 地址。
+
+网页是无需安装依赖的静态文件 `index.html` 和 `en.html`。修改作品介绍时，同步更新 README 与网页，运行 `node scripts/check.mjs` 检查中英文入口、图片和本地链接。
