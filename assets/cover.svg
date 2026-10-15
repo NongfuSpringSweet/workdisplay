@@ -1,0 +1,22 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1600" height="480" viewBox="0 0 1600 480" role="img" aria-labelledby="title desc">
+  <title id="title">Work Display — NongfuSpringSweet</title>
+  <desc id="desc">A bilingual portfolio of eight live projects, including five VZTool tools.</desc>
+  <rect width="1600" height="480" rx="24" fill="#102b27"/>
+  <g fill="none" stroke="#285047" stroke-width="1">
+    <path d="M1080 0v480M1200 0v480M1320 0v480M1440 0v480M1560 0v480M1020 120h580M1020 240h580M1020 360h580"/>
+    <circle cx="1320" cy="240" r="174"/>
+    <circle cx="1320" cy="240" r="116"/>
+  </g>
+  <g font-family="Arial, Helvetica, sans-serif">
+    <text x="76" y="73" fill="#add0bf" font-size="21" letter-spacing="3">NONGFUSPRINGSWEET / SELECTED WORK</text>
+    <text x="70" y="215" fill="#f5f3e9" font-size="128" font-weight="700" letter-spacing="-7">WORK DISPLAY.</text>
+    <text x="78" y="286" fill="#f5f3e9" font-size="30">Ideas you can open, use, and play.</text>
+    <text x="78" y="333" fill="#add0bf" font-family="Arial, Microsoft YaHei, sans-serif" font-size="26">把想法做成可以使用的网站。</text>
+    <path d="M78 376h920" stroke="#3b5b4f"/>
+    <text x="78" y="423" fill="#c6e58b" font-size="20" letter-spacing="2">8 PROJECTS</text>
+    <text x="285" y="423" fill="#add0bf" font-size="20" letter-spacing="2">13 LIVE ENTRIES</text>
+    <text x="605" y="423" fill="#add0bf" font-size="20" letter-spacing="2">中文 / ENGLISH</text>
+    <rect x="1204" y="124" width="232" height="232" rx="52" fill="#c6e58b" transform="rotate(-10 1320 240)"/>
+    <path d="M1260 300l120-120m-120 0h120v120" fill="none" stroke="#102b27" stroke-width="18" stroke-linecap="round" stroke-linejoin="round"/>
+  </g>
+</svg>
