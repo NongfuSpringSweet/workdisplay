@@ -41,4 +41,22 @@ for (const file of files) {
   assert(notes.includes(`assets/screenshots/${file}`), `${file}: missing capture note`);
 }
 
-console.log(`OK: 8 projects, 5 VZTool subdomains, 15 JPEG screenshots, ${checkedLinks} local links.`);
+for (const [file, language] of [['index.html', 'zh-CN'], ['en.html', 'en']]) {
+  const html = await readFile(new URL(file, root), 'utf8');
+  assert(html.includes(`<html lang="${language}">`), `${file}: wrong language`);
+  assert.equal([...html.matchAll(/<img\b/g)].length, 16, `${file}: expected cover and 15 screenshots`);
+  assert(!/href="(?:README(?:\.en)?|SCREENSHOTS)\.md"/.test(html), `${file}: raw Markdown navigation`);
+  for (const domain of domains) assert(html.includes(`https://${domain}/`), `${file}: missing online entry ${domain}`);
+  for (const [, link] of html.matchAll(/\b(?:src|href)="([^"]+)"/g)) {
+    if (link.startsWith('https://')) continue;
+    const [path, anchor] = link.split('#');
+    const target = new URL(path === './' ? 'index.html' : path || file, root);
+    assert(target.href.startsWith(root.href), `${file}: link leaves repository ${link}`);
+    assert((await stat(target)).isFile(), `${file}: missing local resource ${link}`);
+    if (anchor) assert((await readFile(target, 'utf8')).includes(`id="${anchor}"`), `${file}: missing anchor ${link}`);
+    checkedLinks++;
+  }
+}
+assert((await stat(new URL('.nojekyll', root))).isFile(), 'Missing static Pages configuration');
+
+console.log(`OK: bilingual website, 8 projects, 5 VZTool subdomains, 15 JPEG screenshots, ${checkedLinks} local links.`);

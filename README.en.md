@@ -204,4 +204,6 @@ Images stay on your device. AI mode downloads its model on first use, and availa
 
 Screenshots show public production pages using default content or public examples. [Screenshot sources and capture notes](SCREENSHOTS.md) record URLs, dates, and states. Projects continue to evolve; visit each site for its current experience.
 
-This repository is a project showcase. After updating text or images, run `node scripts/check.mjs` to check bilingual coverage, image references, and local links.
+The same portfolio is available as a [GitHub Pages website](https://nongfuspringsweet.github.io/workdisplay/). In Settings → Pages, select `Deploy from a branch`, `main`, and `/(root)`. The repository's About section can use the Pages URL as its Website.
+
+The website uses plain static files, `index.html` and `en.html`, with no dependency installation required. Update both the READMEs and web pages when descriptions change, then run `node scripts/check.mjs` to check bilingual coverage, images, and local links.
