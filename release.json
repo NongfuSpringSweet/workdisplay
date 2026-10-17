@@ -1,6 +1,8 @@
 {
-  "sourceSha": "0786cc38c894651bdfe5e07b6a027b9f200186e4",
-  "releaseId": "b3b5cc3b-5f4b-40f5-9332-44a23b3e7822",
+  "sourceSha": "751a96fdbaebbc24557fe7f6bca67f5981fd95a5",
+  "releaseId": "cce54807-be9a-422e-94a5-f72aa8fab264",
   "siteUrl": "https://nongfuspringsweet.github.io/workdisplay/",
-  "createdAt": "2026-10-15T08:14:50.7046023Z"
+  "createdAt": "2026-10-17T15:41:38.3612442Z",
+  "previousReleaseSha": "f115dba9913330410bc90ef50ede30fcf1fe17ee",
+  "previousReleaseId": "b3b5cc3b-5f4b-40f5-9332-44a23b3e7822"
 }

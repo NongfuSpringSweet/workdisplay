@@ -3,8 +3,8 @@ import { readFile, readdir, stat } from 'node:fs/promises';
 
 const root = new URL('../', import.meta.url);
 const projects = ['2048 Beer', 'BingoMint', 'Catalog Precheck', 'Mahjong Study', 'Offline Game Hub', 'OneImageTool', 'PlayCards365', 'VZTool'];
-const tools = ['Image to ASCII', 'Icon Workshop', 'Pixel Studio', 'GridSplit', 'Cutout'];
-const domains = ['2048.beer', 'bingomint.com', 'catalogprecheck.com', 'mahjongstudy.com', 'offlinegamehub.com', 'oneimagetool.com', 'playcards365.com', 'vztool.com', ...['ascii', 'icon', 'pixel', 'split', 'cutout'].map(name => `${name}.vztool.com`)];
+const tools = ['Image to ASCII', 'Icon Workshop', 'Pixel Studio', 'GridSplit', 'Cutout', 'Compress'];
+const domains = ['2048.beer', 'bingomint.com', 'catalogprecheck.com', 'mahjongstudy.com', 'offlinegamehub.com', 'oneimagetool.com', 'playcards365.com', 'vztool.com', ...['ascii', 'icon', 'pixel', 'split', 'cutout', 'compress'].map(name => `${name}.vztool.com`)];
 const slug = heading => heading.toLowerCase().replace(/[^\p{L}\p{N}\s-]/gu, '').replace(/\s/g, '-');
 const sections = markdown => new Set([...markdown.replaceAll('\r\n', '\n').matchAll(/^#{1,6} (.+)$/gm)].map(match => slug(match[1])));
 let checkedLinks = 0;
@@ -31,7 +31,7 @@ for (const file of ['README.md', 'README.zh-CN.md', 'README.en.md', 'SCREENSHOTS
 }
 
 const files = await readdir(new URL('assets/screenshots/', root));
-assert.equal(files.length, 15, 'Expected 13 site screenshots and two workflow screenshots');
+assert.equal(files.length, 16, 'Expected 14 site screenshots and two workflow screenshots');
 const notes = await readFile(new URL('SCREENSHOTS.md', root), 'utf8');
 for (const file of files) {
   assert(file.endsWith('.jpg'), `Unexpected screenshot file: ${file}`);
@@ -44,7 +44,7 @@ for (const file of files) {
 for (const [file, language] of [['index.html', 'zh-CN'], ['en.html', 'en']]) {
   const html = await readFile(new URL(file, root), 'utf8');
   assert(html.includes(`<html lang="${language}">`), `${file}: wrong language`);
-  assert.equal([...html.matchAll(/<img\b/g)].length, 16, `${file}: expected cover and 15 screenshots`);
+  assert.equal([...html.matchAll(/<img\b/g)].length, 17, `${file}: expected cover and 16 screenshots`);
   assert(!/href="(?:README(?:\.(?:en|zh-CN))?|SCREENSHOTS)\.md"/.test(html), `${file}: raw Markdown navigation`);
   for (const domain of domains) assert(html.includes(`https://${domain}/`), `${file}: missing online entry ${domain}`);
   for (const [, link] of html.matchAll(/\b(?:src|href)="([^"]+)"/g)) {
@@ -59,4 +59,4 @@ for (const [file, language] of [['index.html', 'zh-CN'], ['en.html', 'en']]) {
 }
 assert((await stat(new URL('.nojekyll', root))).isFile(), 'Missing static Pages configuration');
 
-console.log(`OK: bilingual website, 8 projects, 5 VZTool subdomains, 15 JPEG screenshots, ${checkedLinks} local links.`);
+console.log(`OK: bilingual website, 8 projects, 6 VZTool subdomains, 16 JPEG screenshots, ${checkedLinks} local links.`);
