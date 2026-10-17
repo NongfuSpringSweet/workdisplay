@@ -8,7 +8,7 @@
 
 **欢迎关注 [X · @HuaAnDev](https://x.com/HuaAnDev)**，了解新作品、产品更新和开发记录。
 
-**8 个项目 · 13 个网站**
+**8 个项目 · 14 个网站**
 
 ## 一眼看作品
 
@@ -21,7 +21,7 @@
 | [Offline Game Hub](#offline-game-hub) | 首次缓存后可以离线玩的小游戏合集 | [offlinegamehub.com](https://offlinegamehub.com/) |
 | [OneImageTool](#oneimagetool) | 图片、SVG、PDF 与日常小工具 | [oneimagetool.com](https://oneimagetool.com/) |
 | [PlayCards365](#playcards365) | 接龙与多种经典纸牌游戏 | [playcards365.com](https://playcards365.com/) |
-| [VZTool](#vztool) | ASCII、图标、像素画、切图与抠图工具系列 | [vztool.com](https://vztool.com/) |
+| [VZTool](#vztool) | 图片创作工具与视频、图片、PDF 压缩 | [vztool.com](https://vztool.com/) |
 
 ## 2048 Beer
 
@@ -115,6 +115,7 @@
 - SVG 转换与优化，PDF 合并与压缩。
 - 搜索与收藏、多语言界面，兼顾手机和桌面操作。
 - 文件处理在浏览器中完成，常用流程无需注册。
+- 部分工具现已转到专属 VZTool 工作台，包括压缩、ASCII、图标、像素画、切图与抠图。
 
 [打开工具箱](https://oneimagetool.com/)
 
@@ -145,39 +146,44 @@
 
 **Small tools, made useful. 小工具，认真做好。**
 
-一个围绕图片创作与日常设计的工具系列。主站负责发现工具，5 个独立子域名分别提供专注的工作台；图像处理在本机浏览器中完成。
+一个围绕图片创作、日常设计与文件压缩的工具系列。主站负责发现工具，6 个独立子域名分别提供专注的工作台；文件处理在本机浏览器中完成。
 
 [打开 VZTool 主站](https://vztool.com/)
 
-[![VZTool：图片创作工具系列首页](assets/screenshots/vztool.jpg)](https://vztool.com/)
+[![VZTool：创作工具与视频、图片、PDF 压缩入口](assets/screenshots/vztool.jpg)](https://vztool.com/)
 
 | 工具 | 用途 | 独立入口 |
 | --- | --- | --- |
-| [Image to ASCII](#image-to-ascii) | 图片转字符画 | [ascii.vztool.com](https://ascii.vztool.com/) |
-| [Icon Workshop](#icon-workshop) | 生成网站图标和完整图标包 | [icon.vztool.com](https://icon.vztool.com/) |
-| [Pixel Studio](#pixel-studio) | 照片转像素画与手工图样 | [pixel.vztool.com](https://pixel.vztool.com/) |
+| [Image to ASCII](#image-to-ascii) | 图片和动图转字符画 | [ascii.vztool.com](https://ascii.vztool.com/) |
+| [Icon Workshop](#icon-workshop) | 图片或文字生成网站图标 | [icon.vztool.com](https://icon.vztool.com/) |
+| [Pixel Studio](#pixel-studio) | 像素画、像素动图与手工图样 | [pixel.vztool.com](https://pixel.vztool.com/) |
 | [GridSplit](#gridsplit) | 社交媒体网格切图和发布顺序预览 | [split.vztool.com](https://split.vztool.com/) |
 | [Cutout](#cutout) | AI 去背景与手动精修 | [cutout.vztool.com](https://cutout.vztool.com/) |
+| [Compress](#compress) | 视频、图片与 PDF 压缩 | [compress.vztool.com](https://compress.vztool.com/) |
 
 ### Image to ASCII
 
 把照片转成字符画，调整字符、颜色与细节，在预览中找到想要的效果。支持文字、PNG、SVG、HTML 和 ANSI 输出，适合头像、海报与终端风格创作。
 
+GIF 和动态 WebP 可保留帧时长与循环，转换后导出 GIF；静态图片和文字输出使用首帧。
+
 [体验 Image to ASCII](https://ascii.vztool.com/)
 
-[![Image to ASCII：字符画转换工作台](assets/screenshots/vztool-ascii.jpg)](https://ascii.vztool.com/)
+[![Image to ASCII：图片与 GIF 转换入口和字符画对照](assets/screenshots/vztool-ascii.jpg)](https://ascii.vztool.com/)
 
 ### Icon Workshop
 
-从一张图片生成网站 favicon 和应用图标。预览不同尺寸与形状，下载 ICO、PNG 或带 manifest 与安装代码的图标包，方便放进实际项目。
+从图片或文字生成网站 favicon 和应用图标。预览不同尺寸与形状，下载 ICO、PNG 或带 manifest 与安装代码的图标包，方便放进实际项目。
 
 [体验 Icon Workshop](https://icon.vztool.com/)
 
-[![Icon Workshop：网站图标制作与预览](assets/screenshots/vztool-icon.jpg)](https://icon.vztool.com/)
+[![Icon Workshop：文字图标生成与多尺寸预览](assets/screenshots/vztool-icon.jpg)](https://icon.vztool.com/)
 
 ### Pixel Studio
 
 把照片转换为像素画，通过网格密度、颜色数量与预设调色板控制风格。既可以导出像素图，也可以生成带色号的手工参考图样。
+
+支持 GIF 和动态 WebP 转像素动图并导出 GIF；PNG、手工图样和 ZIP 输出使用首帧。
 
 [体验 Pixel Studio](https://pixel.vztool.com/)
 
@@ -195,8 +201,26 @@
 
 用 AI 自动去除图片背景，再通过套索、魔法棒和笔刷修整边缘。支持主体／背景切换、柔化、背景替换与撤销重做，最后导出透明 PNG、JPG 或遮罩。
 
+批量抠图一次可添加最多 10 张图片，支持单独下载透明 PNG 或打包 ZIP。另有白底图、商品图、人像与贴纸的专用入口。
+
 图片在本机处理；AI 模式首次使用需要下载模型，运行能力取决于浏览器和设备。
 
 [体验 Cutout](https://cutout.vztool.com/)
 
-[![Cutout：AI 去背景与手动抠图工作台](assets/screenshots/vztool-cutout.jpg)](https://cutout.vztool.com/)
+[![Cutout：批量背景去除设置](assets/screenshots/vztool-cutout.jpg)](https://cutout.vztool.com/)
+
+### Compress
+
+**让视频、图片和 PDF 更小，文件留在自己的设备上。**
+
+设置 KB／MB 目标大小，或按需要调整质量，对比结果后下载压缩副本。无需上传原文件，也无需注册账户。
+
+- 视频支持 MP4、MOV、WebM 和可选片段裁剪；格式兼容性取决于浏览器。
+- 图片支持 JPG、PNG、WebP 与动态 GIF，提供常用大小预设和尺寸控制。
+- PDF 优化文档结构与内嵌图片，保留文字和矢量内容；不支持签名或加密文档。
+
+输出大小与质量取决于原文件，不能保证每个文件都达到目标大小。
+
+[压缩视频](https://compress.vztool.com/) · [压缩图片](https://compress.vztool.com/image) · [压缩 PDF](https://compress.vztool.com/pdf)
+
+[![Compress：本地视频压缩与目标大小设置](assets/screenshots/vztool-compress.jpg)](https://compress.vztool.com/)

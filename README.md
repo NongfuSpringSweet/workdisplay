@@ -8,7 +8,7 @@ Hi, I'm [NongfuSpringSweet](https://github.com/NongfuSpringSweet). This is a col
 
 **Follow [@HuaAnDev on X](https://x.com/HuaAnDev)** for new launches, product updates, and development notes.
 
-**8 live projects · 13 websites**
+**8 live projects · 14 websites**
 
 ## Explore the projects
 
@@ -21,7 +21,7 @@ Hi, I'm [NongfuSpringSweet](https://github.com/NongfuSpringSweet). This is a col
 | [Offline Game Hub](#offline-game-hub) | Small games that work offline after caching | [offlinegamehub.com](https://offlinegamehub.com/) |
 | [OneImageTool](#oneimagetool) | Image, SVG, PDF, and everyday utilities | [oneimagetool.com](https://oneimagetool.com/) |
 | [PlayCards365](#playcards365) | Solitaire and classic card games | [playcards365.com](https://playcards365.com/) |
-| [VZTool](#vztool) | ASCII, icons, pixel art, grid splitting, and cutouts | [vztool.com](https://vztool.com/) |
+| [VZTool](#vztool) | Creative image tools and video, image, and PDF compression | [vztool.com](https://vztool.com/) |
 
 ## 2048 Beer
 
@@ -115,6 +115,7 @@ A shared workspace for image, SVG, PDF, and utility tools. Compress, convert, cr
 - SVG conversion and optimization, plus PDF merging and compression.
 - Search, favorites, and multiple interface languages across desktop and mobile.
 - File processing runs in the browser; common workflows need no account.
+- Selected tools now open their dedicated VZTool workspaces, including compression, ASCII art, icons, pixel art, splitting, and cutouts.
 
 [Open the toolbox](https://oneimagetool.com/)
 
@@ -145,39 +146,44 @@ A collection of 28 card games, from Klondike, Spider, and FreeCell to bot practi
 
 **Small tools, made useful.**
 
-A family of tools for image creation and everyday design. The main site helps you discover tools, while 5 dedicated subdomains each offer a focused workspace. Image processing stays in your browser.
+A family of tools for image creation, everyday design, and smaller files. The main site helps you discover tools, while 6 dedicated subdomains each offer a focused workspace. File processing stays in your browser.
 
 [Visit VZTool](https://vztool.com/)
 
-[![VZTool: the image-tool collection](assets/screenshots/vztool.jpg)](https://vztool.com/)
+[![VZTool: creative tools and video, image, and PDF compression](assets/screenshots/vztool.jpg)](https://vztool.com/)
 
 | Tool | What it does | Dedicated site |
 | --- | --- | --- |
-| [Image to ASCII](#image-to-ascii) | Turn pictures into character art | [ascii.vztool.com](https://ascii.vztool.com/) |
-| [Icon Workshop](#icon-workshop) | Create website icons and complete icon packs | [icon.vztool.com](https://icon.vztool.com/) |
-| [Pixel Studio](#pixel-studio) | Turn photos into pixel art and craft patterns | [pixel.vztool.com](https://pixel.vztool.com/) |
+| [Image to ASCII](#image-to-ascii) | Turn images and animations into character art | [ascii.vztool.com](https://ascii.vztool.com/) |
+| [Icon Workshop](#icon-workshop) | Create icons from images or text | [icon.vztool.com](https://icon.vztool.com/) |
+| [Pixel Studio](#pixel-studio) | Create pixel art, animations, and craft patterns | [pixel.vztool.com](https://pixel.vztool.com/) |
 | [GridSplit](#gridsplit) | Split social-media grids and preview posting order | [split.vztool.com](https://split.vztool.com/) |
 | [Cutout](#cutout) | Remove backgrounds with AI and refine by hand | [cutout.vztool.com](https://cutout.vztool.com/) |
+| [Compress](#compress) | Make videos, images, and PDFs smaller | [compress.vztool.com](https://compress.vztool.com/) |
 
 ### Image to ASCII
 
 Convert photos into character art, adjusting characters, colors, and detail while previewing the result. Export text, PNG, SVG, HTML, or ANSI for avatars, posters, and terminal-inspired artwork.
 
+GIF and animated WebP inputs keep their frame timing and loops when exported as GIF. Still-image and text exports use the first frame.
+
 [Try Image to ASCII](https://ascii.vztool.com/)
 
-[![Image to ASCII: the character-art workspace](assets/screenshots/vztool-ascii.jpg)](https://ascii.vztool.com/)
+[![Image to ASCII: image and GIF converter with an ASCII comparison](assets/screenshots/vztool-ascii.jpg)](https://ascii.vztool.com/)
 
 ### Icon Workshop
 
-Turn one image into website favicons and app icons. Preview different sizes and shapes, then download ICO, PNG, or an icon pack with a manifest and installation code for your project.
+Turn an image or text into website favicons and app icons. Preview different sizes and shapes, then download ICO, PNG, or an icon pack with a manifest and installation code for your project.
 
 [Try Icon Workshop](https://icon.vztool.com/)
 
-[![Icon Workshop: creating and previewing website icons](assets/screenshots/vztool-icon.jpg)](https://icon.vztool.com/)
+[![Icon Workshop: text-based icons and size previews](assets/screenshots/vztool-icon.jpg)](https://icon.vztool.com/)
 
 ### Pixel Studio
 
 Convert photos into pixel art, controlling the look through grid density, color count, and preset palettes. Export the artwork or create numbered patterns for a craft project.
+
+Convert GIF and animated WebP inputs into animated pixel art and download GIF. PNG, craft guides, and ZIP exports use the first frame.
 
 [Try Pixel Studio](https://pixel.vztool.com/)
 
@@ -195,8 +201,26 @@ Split a larger image into a social-media grid. Preview the full composition in a
 
 Remove backgrounds with AI, then refine edges with a lasso, magic wand, or brush. Switch between subject and background, soften edges, replace the background, and undo edits before exporting transparent PNG, JPG, or a mask.
 
+Batch cutout handles up to 10 images, with individual transparent PNGs or a ZIP download. Dedicated workspaces cover white backgrounds, product photos, portraits, and stickers.
+
 Images stay on your device. AI mode downloads its model on first use, and availability depends on your browser and hardware.
 
 [Try Cutout](https://cutout.vztool.com/)
 
-[![Cutout: AI background removal and manual editing](assets/screenshots/vztool-cutout.jpg)](https://cutout.vztool.com/)
+[![Cutout: batch background-removal settings](assets/screenshots/vztool-cutout.jpg)](https://cutout.vztool.com/)
+
+### Compress
+
+**Smaller videos, images, and PDFs, processed on your device.**
+
+Choose a target size in KB or MB, or adjust quality to suit your file. Compare the result and download a separate copy without uploading the original or creating an account.
+
+- Video compression for MP4, MOV, and WebM, with optional trimming; format support depends on your browser.
+- JPG, PNG, WebP, and animated GIF compression, with common size presets and dimension controls.
+- PDF compression optimizes document structure and embedded images while preserving text and vectors. Signed and encrypted PDFs are not supported.
+
+Output size and quality depend on the source file; a target size is not guaranteed.
+
+[Compress video](https://compress.vztool.com/) · [Compress images](https://compress.vztool.com/image) · [Compress PDF](https://compress.vztool.com/pdf)
+
+[![Compress: local video compression and target-size controls](assets/screenshots/vztool-compress.jpg)](https://compress.vztool.com/)
