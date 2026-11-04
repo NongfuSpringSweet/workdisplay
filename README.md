@@ -6,7 +6,7 @@
 
 Hi, I'm [NongfuSpringSweet](https://github.com/NongfuSpringSweet). This is a collection of my live projects: practical utilities, creative workspaces, a teaching app, and browser games.
 
-**Follow [@HuaAnDev on X](https://x.com/HuaAnDev)** for new launches, product updates, and development notes.
+**Follow [@HuaAnDev on X](https://x.com/HuaAnDev) and [@HuaanBuilds on YouTube](https://www.youtube.com/@HuaanBuilds)** for new launches, product updates, and development notes.
 
 **8 live projects · 14 websites**
 

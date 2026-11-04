@@ -6,7 +6,7 @@
 
 你好，我是 [NongfuSpringSweet](https://github.com/NongfuSpringSweet)。这里收集了我已上线的作品：实用工具、创作工作台、教学应用和浏览器游戏。
 
-**欢迎关注 [X · @HuaAnDev](https://x.com/HuaAnDev)**，了解新作品、产品更新和开发记录。
+**欢迎关注 [X · @HuaAnDev](https://x.com/HuaAnDev) 和 [YouTube · @HuaanBuilds](https://www.youtube.com/@HuaanBuilds)**，了解新作品、产品更新和开发记录。
 
 **8 个项目 · 14 个网站**
 
