@@ -1,6 +1,6 @@
 ![Work Display — 把想法做成可以使用的网站](assets/cover.svg)
 
-<p align="center"><a href="README.md">English</a> · <b>简体中文</b> · <a href="https://nongfuspringsweet.github.io/workdisplay/">网站</a></p>
+<p align="center"><a href="README.md">English</a> · <b>简体中文</b> · <a href="https://portfolio.vztool.com/zh.html">网站</a></p>
 
 # Work Display · 作品集
 
